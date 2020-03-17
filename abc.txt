@@ -1,5 +1,0 @@
-this is abc file.
-this is secnd line.
-3rd line.
-
-

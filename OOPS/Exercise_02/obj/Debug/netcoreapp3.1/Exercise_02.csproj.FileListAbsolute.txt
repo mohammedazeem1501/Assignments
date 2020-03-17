@@ -1,0 +1,11 @@
+C:\Users\Azeem Faisal\source\repos\Exercise_02\bin\Debug\netcoreapp3.1\Exercise_02.exe
+C:\Users\Azeem Faisal\source\repos\Exercise_02\bin\Debug\netcoreapp3.1\Exercise_02.deps.json
+C:\Users\Azeem Faisal\source\repos\Exercise_02\bin\Debug\netcoreapp3.1\Exercise_02.runtimeconfig.json
+C:\Users\Azeem Faisal\source\repos\Exercise_02\bin\Debug\netcoreapp3.1\Exercise_02.runtimeconfig.dev.json
+C:\Users\Azeem Faisal\source\repos\Exercise_02\bin\Debug\netcoreapp3.1\Exercise_02.dll
+C:\Users\Azeem Faisal\source\repos\Exercise_02\bin\Debug\netcoreapp3.1\Exercise_02.pdb
+C:\Users\Azeem Faisal\source\repos\Exercise_02\obj\Debug\netcoreapp3.1\Exercise_02.csprojAssemblyReference.cache
+C:\Users\Azeem Faisal\source\repos\Exercise_02\obj\Debug\netcoreapp3.1\Exercise_02.AssemblyInfoInputs.cache
+C:\Users\Azeem Faisal\source\repos\Exercise_02\obj\Debug\netcoreapp3.1\Exercise_02.AssemblyInfo.cs
+C:\Users\Azeem Faisal\source\repos\Exercise_02\obj\Debug\netcoreapp3.1\Exercise_02.dll
+C:\Users\Azeem Faisal\source\repos\Exercise_02\obj\Debug\netcoreapp3.1\Exercise_02.pdb

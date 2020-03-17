@@ -1,0 +1,111 @@
+{
+	"variables": [],
+	"info": {
+		"name": "API_1",
+		"_postman_id": "4541f665-e026-9a56-d085-699e39923c1d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:65398/api/index/GetData",
+			"request": {
+				"url": "http://localhost:65398/api/index/GetData",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "it contains the get method for the student."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:56412/api/index/GetData/101",
+			"request": {
+				"url": "http://localhost:56412/api/index/GetData/101",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\t\"ROLL_No\":102,\n\t\"NAME\":Arpit,\n\t\"MARKS\": 80\n\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:56412/api/index/InsertData",
+			"request": {
+				"url": "http://localhost:56412/api/index/InsertData",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\t\"ROLL_No\":102,\n\t\"NAME\":\"Arpit\",\n\t\"MARKS\": 80\n\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:56412/api/index/DeleteData/102",
+			"request": {
+				"url": "http://localhost:56412/api/index/DeleteData/102",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\t\"ROLL_No\":102,\n\t\"NAME\":\"Arpit\",\n\t\"MARKS\": 80\n\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:56412/api/index/UpdateData/101",
+			"request": {
+				"url": "http://localhost:56412/api/index/UpdateData/101",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\t\n\t\"NAME\":\"Latika\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

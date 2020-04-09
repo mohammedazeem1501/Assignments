@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Five</title>
+</head>
+<body>
+    <div>
+        <p>Question 05. Use of Global. Asax and difference b/w global Web config and View Web Config. ?</p>
+        <p>
+            <strong>Global.asax</strong> <br />
+            The Global.asax file is configured so that any direct HTTP
+            request (via URL) is rejected automatically, so users
+            cannot download or view its contents. The ASP.NET page
+            framework recognizes automatically any changes that are
+            made to the Global.asax file. The framework reboots the
+            application, which includes closing all browser sessions,
+            flushes all state information, and restarts the application
+            domain.
+        </p>
+        @Html.ActionLink("Home", "Index")
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>Question 03 is implemented on this page only.</h1>
+        <hr />
+        <h2>@ViewBag.Name</h2>
+        <hr />
+        <h2>@ViewBag.Property</h2>
+         <ul>
+             @foreach (var item in (List<string>)ViewData["MyList"])
+             {  
+                 <li>@item</li>
+             }
+         </ul>
+         <section>
+             <hr />
+             <p>To see Data transfer between 2 controller click on the below link : </p><br />
+             @Html.ActionLink("Go to Value Contoller", "Index", "Value")<br />
+             <p>These are the links of the following quesetions</p>
+             @Html.ActionLink("Question 01", "One")
+             @Html.ActionLink("Question 02", "Two")
+             @Html.ActionLink("Question 04", "Four")
+             @Html.ActionLink("Question 05", "Five")
+             <hr />
+             <h3>Fill data to pass to the controller with Parameters : </h3>
+             @using (Html.BeginForm("UsingParameters", "Home"))
+             {
+                 <input type="text" name="Firstname" /><br />
+                 <input type="text" name="Lastname" /><br />
+                 <input type="submit" value="Submit" />
+             }
+         </section>
+        <hr />
+        <section>
+            <h3>Fill data to pass to the controller with Request : </h3>
+            @using (Html.BeginForm("UsingRequest", "Home"))
+            {
+                <input type="text" name="Firstname" /><br />
+                <input type="text" name="Lastname" /><br />
+                <input type="submit" value="Submit" />
+            }
+        </section>
+        <hr />
+        <section>
+            <h3>Fill data to pass to the controller with FormCollection  : </h3>
+            @using (Html.BeginForm("UsingFormCollection", "Home"))
+            {
+                <input type="text" name="Firstname" /><br />
+                <input type="text" name="Lastname" /><br />
+                <input type="submit" value="Submit" />
+            }
+        </section>
+    </div>
+</body>
+</html>

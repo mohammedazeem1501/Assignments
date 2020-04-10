@@ -1,0 +1,91 @@
+﻿<nav id="sidebar">
+    <div class="sidebar-header">
+        <h3>To The New</h3>
+    </div>
+
+    <ul class="list-unstyled components">
+        <p>MENU</p>
+        <li class="active">
+
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Employee</a>
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                    @*<a href='@Url.Action("Form","Employee")'> Fill the Form </a>*@
+                    @Html.ActionLink("Fill The Form", "Form", "Employee")
+                </li>
+                <li>
+                    <a href='@Url.Action("View_Form","Employee")'>View the Form</a>
+
+                </li>
+                <li>
+                    <a href='@Url.Action("One","Employee")'>Question 01</a>
+
+                </li>
+                <li>
+                    <a href='@Url.Action("Two","Employee")'>Question 02</a>
+
+                </li>
+                <li>
+                    <a href='@Url.Action("Three","Employee")'>Question 03</a>
+
+                </li>
+                <li>
+                    <a href='@Url.Action("Four","Employee")'>Question 04</a>
+
+                </li>
+                <li>
+                    <a href='@Url.Action("Five","Employee")'>Question 05</a>
+
+                </li>
+            </ul>
+        </li>
+       
+        @*<li>
+            @Html.ActionLink("Employees","getemployees","Employee")
+        </li>*@
+        <li>
+            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Technologies</a>
+            <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                    <a href='@Url.Action("Backend","Technologies")'>Backend Engineering</a>
+                </li>
+                <li>
+                    <a href='@Url.Action("Frontend","Technologies")'>FrontEnd Engineering</a>
+                </li>
+                <li>
+                    <a href='@Url.Action("Mobility","Technologies")'>Mobility</a>
+                </li>
+                <li>
+                    <a href='@Url.Action("Testing","Technologies")'>Testing</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href='@Url.Action("AboutUs","Home")'>About Us</a>
+        </li>
+        <li>
+            <a href='@Url.Action("ContactUs","Home")'>Contact Us</a>
+        </li>
+      
+    </ul>
+
+   
+</nav>
+
+@helper RenderMenu(int id, string menuName)
+{
+    <li class="active">
+        <a href="#homeSubmenu_@id" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">@menuName</a>
+        <ul class="collapse list-unstyled" id="homeSubmenu_@id">
+            <li>
+                <a href="#">Home 1</a>
+            </li>
+            <li>
+                <a href="#">Home 2</a>
+            </li>
+            <li>
+                <a href="#">Home 3</a>
+            </li>
+        </ul>
+    </li>
+}

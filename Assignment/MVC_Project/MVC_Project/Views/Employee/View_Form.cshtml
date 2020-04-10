@@ -1,0 +1,64 @@
+﻿@model IEnumerable<MVC_Project.Models.EntityModels.Employee>
+
+@{
+    ViewBag.Title = "View_Form";
+}
+
+<h2>Details</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Emp_ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Designation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Competency)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Experience)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salary)
+        </th>
+        <th></th>
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Emp_ID
+            </td>
+            <td>
+                @item.FirstName
+            </td>
+            <td>
+                @item.LastName
+            </td>
+            <td>
+                @item.Designation
+            </td>
+            <td>
+                @item.Competency
+            </td>
+            <td>
+                @item.Experience
+            </td>
+            <td>
+                @item.Salary
+            </td>
+            
+        </tr>
+    }
+</table>

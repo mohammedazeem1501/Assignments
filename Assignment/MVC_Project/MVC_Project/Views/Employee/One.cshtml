@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "One";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+    <h2>Explain different types of filters and explain the ordering of filters and how to set order when we use the same type of filter we have used.</h2>
+
+    <p>
+        The Different Types of Filters
+        The ASP.NET MVC framework supports four different types of filters:
+        <ol>
+            <li>
+                Authorization filters – Implements the IAuthorizationFilter attribute.
+            </li>
+            <li>
+                Action filters – Implements the IActionFilter attribute.
+            </li>
+            <li>
+                Result filters – Implements the IResultFilter attribute.
+            </li>
+            <li>
+
+                Exception filters – Implements the IExceptionFilter attribute.
+            </li>
+        </ol>
+       
+      
+       
+         
+    </p>
+<strong>NOTE : Order is also the same as mentioned above. </strong>
+
+<ol>
+    <li>
+        Authorization filters are used to implement authentication and authorization for controller actions. For example, the Authorize filter is an example of an Authorization filter.
+    </li>
+    <li>
+        Action filters contain logic that is executed before and after a controller action executes. You can use an action filter, for instance, to modify the view data that a controller action returns
+    </li>
+    <li>
+        Result filters contain logic that is executed before and after a view result is executed. For example, you might want to modify a view result right before the view is rendered to the browser.
+    </li>
+    <li>
+        Exception filters are the last type of filter to run. You can use an exception filter to handle errors raised by either your controller actions or controller action results. You also can use exception filters to log errors.
+    </li>
+</ol>
+<p>
+    We can set Orders of the filters to get executed by providing them Order no as I have implemented in EmployeeController.
+</p>
+

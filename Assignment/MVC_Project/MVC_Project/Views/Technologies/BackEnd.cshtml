@@ -1,0 +1,26 @@
+﻿@model IEnumerable<MVC_Project.Models.EntityModels.Backend>
+@{
+    ViewBag.Title = "BackEnd";
+}
+
+<h2>BackEnd</h2>
+
+<table class="table">
+
+
+    @foreach (var item in Model)
+    {
+        <td>
+
+            <br />
+            <h2>@item.Name</h2>
+            <br />
+            @item.Description
+        </td>
+
+
+
+
+    }
+
+</table>

@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Three";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+
+
+@section RenderName
+{
+    <h1>Question 03</h1>
+}
+<p>Explain Render Section and CShtml function with examples.Why do we use the “Bind'' attribute in the action parameter?</p>
+<div>
+    <strong>Render Section :</strong>
+    <p>
+        Render Section is used to render any section in the child request.
+        Implemented as Question 03 is visible from the render section only.
+    </p>
+
+</div>
+<p>
+    Below is a Use of cshtml function datetime - <br />
+</p>
+@{
+    var text = "";
+    if (DateTime.Now.Hour < 12)
+    {
+        text = "Good Morning Mr. Ashish Kumar Jaishwal, Have a Good Day";
+    }
+    else
+    {
+        text = "Good Evening Mr. Ashish Kumar Jaishwal, Hope You are safe and Healthy.";
+    }
+}
+<b>@text</b>
+<br />
+<br />
+<strong>Binding : </strong>
+<p>
+   
+
+    You can select the Student list and View the form from the sidebar.
+    The Form Action has implemented the Binding but not saved in the DB.
+    You can check the Login in the Home Controller. <br />
+
+    using the <strong>BIND</strong> attribute we are specifying the properties that we want to include in model binding using the Include property of BindAttribute class. As the “Name” property is not specified in the Include list, so it will be excluded from model binding.
+</p>
+

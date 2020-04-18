@@ -1,0 +1,50 @@
+﻿@page "/AddStudent"
+<h3>AddStudent</h3>
+<hr />
+
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label for="FName" class="control-label">First Name</label>
+                <input form="FName" class="form-control" @bind="@student.Firstname" />
+            </div>
+            <div class="form-group">
+                <label for="LName" class="control-label">Last Name</label>
+                <input form="LName" class="form-control" @bind="@student.Lastname" />
+            </div>
+            <div class="form-group">
+                <label for="designation" class="control-label">Age</label>
+                <input form="Designation" class="form-control" @bind="@student.Age" />
+            </div>
+            <div class="form-group">
+                <label for="Competency" class="control-label">Address</label>
+                <input form="Competency" class="form-control" @bind="@student.Address" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="button" class="btn-btn-primary" @onclick="@InsertEmployee" value="Save" />
+                <input type="button" class="btn-btn-primary" @onclick="@Cancel" value="Cancel" />
+            </div>
+        </div>
+    </div>
+</form>
+
+
+@functions
+{
+    Student student = new Student();
+    private void InsertEmployee()
+    {
+        _student.Insert(student);
+        _navigation.NavigateTo("Student");
+    }
+    private void Cancel()
+    {
+        _navigation.NavigateTo("Student");
+    }
+
+}

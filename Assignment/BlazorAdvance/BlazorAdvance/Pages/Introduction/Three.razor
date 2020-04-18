@@ -1,0 +1,25 @@
+﻿@page "/three"
+
+<h3>Explain the Life cycle with example.</h3>
+<div>
+  <h3>The life Cycle contains these methods in this way only : </h3>
+</div>
+<strong>OnInitialized / OnInitializedAsync</strong>
+<p>
+    These methods are called at the initialization stage of the page.
+    These methods will load the declared data inside it before the page gets render on the browser.
+    OnInitialized will execute one after one but Async method will not wait for any other method to ge itself executed.
+</p>
+<strong>
+    OnParametersSet / OnParametersSetAsync
+</strong>
+<p>
+    These are the first pair of methods in a component’s lifecycle that are potentially called repeatedly. If none of the component’s [Parameter] properties change then the component will simply idle until it is finally destroyed. However, if any of the parameters in its parent’s HTML markup are altered then these methods will fire after the component’s state has been updated.
+</p>
+<strong>
+    OnAfterRender / OnAfterRenderAsync
+</strong>
+<p>
+    These last two methods are executed every time Blazor has re-generated the component’s RenderTree. This can be as a result of the component’s [Parameter] properties being changed in its parent’s HTML mark-up, as a consequence of the user interacting with the component (e.g. a mouse-click), or if the component executes its StateHasChanged method to invoke a re-render.
+</p>
+

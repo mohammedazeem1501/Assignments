@@ -1,0 +1,26 @@
+﻿@inherits LayoutComponentBase
+
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+        <a href="https://docs.microsoft.com/en-us/aspnet/" target="_blank">About</a> &nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-danger" value="Logout" @onclick="Logout">Logout</button>
+
+
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
+@functions
+{
+    private void Logout()
+    {
+
+        _navigation.NavigateTo("/");
+    }
+}

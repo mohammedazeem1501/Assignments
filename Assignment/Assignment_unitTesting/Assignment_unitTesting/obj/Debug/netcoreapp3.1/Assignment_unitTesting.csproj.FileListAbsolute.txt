@@ -1,0 +1,15 @@
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\obj\Debug\netcoreapp3.1\Assignment_unitTesting.csproj.CoreCompileInputs.cache
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\obj\Debug\netcoreapp3.1\Assignment_unitTesting.AssemblyInfoInputs.cache
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\obj\Debug\netcoreapp3.1\Assignment_unitTesting.AssemblyInfo.cs
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\bin\Debug\netcoreapp3.1\Assignment_unitTesting.exe
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\bin\Debug\netcoreapp3.1\Assignment_unitTesting.deps.json
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\bin\Debug\netcoreapp3.1\Assignment_unitTesting.runtimeconfig.json
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\bin\Debug\netcoreapp3.1\Assignment_unitTesting.runtimeconfig.dev.json
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\bin\Debug\netcoreapp3.1\Assignment_unitTesting.dll
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\bin\Debug\netcoreapp3.1\Assignment_unitTesting.pdb
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\obj\Debug\netcoreapp3.1\Assignment_unitTesting.csproj.CopyComplete
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\obj\Debug\netcoreapp3.1\Assignment_unitTesting.dll
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\obj\Debug\netcoreapp3.1\Assignment_unitTesting.pdb
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\obj\Debug\netcoreapp3.1\Assignment_unitTesting.genruntimeconfig.cache
+C:\Users\Azeem Faisal\source\repos\Assignment_unitTesting\Assignment_unitTesting\obj\Debug\netcoreapp3.1\Assignment_unitTesting.csprojAssemblyReference.cache

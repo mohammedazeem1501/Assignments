@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yj207oTEhNR2d3P5ZB5fZLqHKhQhfKjcSWWW4P2mlbHd6TdrNHeZd3iWlGWDUYYatoCxlHUx6K56xsPG47yXPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Azeem Faisal\\source\\repos\\Assignment_unitTesting\\Assignment_unitTesting\\Assignment_unitTesting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Azeem Faisal\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
